@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/nRFUARTBridge.iml" filepath="$PROJECT_DIR$/nRFUARTBridge.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nRFUARTBridge/nRFUARTBridge-nRFUARTBridge.iml" filepath="$PROJECT_DIR$/nRFUARTBridge/nRFUARTBridge-nRFUARTBridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RainbowBridge.iml" filepath="$PROJECT_DIR$/RainbowBridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nRFUARTBridge/nRFUARTBridge.iml" filepath="$PROJECT_DIR$/nRFUARTBridge/nRFUARTBridge.iml" />
     </modules>
   </component>
 </project>

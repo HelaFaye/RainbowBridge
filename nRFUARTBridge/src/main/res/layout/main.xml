@@ -3,30 +3,112 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#666">
+
+        <TextView
+            android:id="@+id/title_uu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="50dp"
+            android:text="Set Device UUIDs"
+            android:textColor="#fff"
+            android:textSize="15dip" />
+
+
+    </RelativeLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/svcuprompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service UUID:" />
+
+        <EditText
+            android:id="@+id/svc_uuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="6e400001-b5a3-f393-e0a9-e50e24dcca9e" />
+
+        <TextView
+            android:id="@+id/txuprompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TX UUID:" />
+
+        <EditText
+            android:id="@+id/tx_uuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="6e400003-b5a3-f393-e0a9-e50e24dcca9e" />
+
+        <TextView
+            android:id="@+id/rxuprompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RX UUID:" />
+
+        <EditText
+            android:id="@+id/rx_uuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="6e400002-b5a3-f393-e0a9-e50e24dcca9e" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btn_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Update UUIDS" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
         <Button
             android:id="@+id/btn_select"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="12dp"
             android:text="Connect" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.31"
         android:orientation="vertical" >
 
         <RelativeLayout
-            android:id="@+id/RelativeLayout1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="4.11"
@@ -44,7 +126,6 @@
     </LinearLayout>
 
     <RelativeLayout
-        android:id="@+id/RelativeLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
@@ -79,4 +160,5 @@
             android:textAppearance="?android:attr/textAppearanceMedium" />
     </RelativeLayout>
 
+</LinearLayout>
 </LinearLayout>
