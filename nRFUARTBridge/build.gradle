@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 18
+    compileSdkVersion 28
 
     defaultConfig {
-        applicationId "com.netrafir.RainbowBridge"
+        applicationId "com.netrafire.RainbowBridge"
         minSdkVersion 18
-        targetSdkVersion 28
+        targetSdkVersion 18
     }
 
 
