@@ -3,9 +3,9 @@ android {
     compileSdkVersion 18
 
     defaultConfig {
-        applicationId "com.nordicsemi.nrfUARTv2"
+        applicationId "com.netrafir.RainbowBridge"
         minSdkVersion 18
-        targetSdkVersion 18
+        targetSdkVersion 28
     }
 
 
