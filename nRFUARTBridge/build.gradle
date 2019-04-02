@@ -5,7 +5,7 @@ android {
     defaultConfig {
         applicationId "com.netrafire.RainbowBridge"
         minSdkVersion 18
-        targetSdkVersion 18
+        targetSdkVersion 28
     }
 
 
